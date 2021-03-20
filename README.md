@@ -112,11 +112,15 @@ Your can replace it with other point cloud files in [examples](https://github.co
 #### Extract Isosurface from MLS Points
 After inference, now we have network predicted mls points. The next step is to extract the surface:
 ```
-python mls_marching_cube.py --i examples/d0fa70e45dee680fa45b742ddc5add59.ply.xyz --o examples/d0fa70e45dee680fa45b742ddc5add59_mc.obj --scale
+python mls_marching_cubes.py --i examples/d0fa70e45dee680fa45b742ddc5add59.ply.xyz --o examples/d0fa70e45dee680fa45b742ddc5add59_mc.obj --scale
 ```
 
 #### Training
 Our code supports single and multiple gpu training. For details, please refer to the config json file.
+Note that we have collected sdf samples from 64×64×64
 ```
 python DeepMLS_Generation.py examples/Config_g2_bs32_1p_d6.json
 ```
+
+#### Evaluation
+For evaluation of results, [ConvONet](https://github.com/autonomousvision/convolutional_occupancy_networks) has provided a great script. Please refer to [here](https://github.com/autonomousvision/convolutional_occupancy_networks#evaluation).
