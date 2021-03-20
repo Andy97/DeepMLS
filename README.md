@@ -3,7 +3,7 @@
 This repository contains the implementation of the paper:
 
 **Deep Implicit Moving Least-Squares Functions for 3D Reconstruction**  
-Shi-Lin Liu, Hao-Xiang Guo, [Hao Pan](https://haopan.github.io/), [Pengshuai Wang](https://wang-ps.github.io/), [Xin Tong](http://www.xtong.info/), [Yang Liu](https://xueyuhanlang.github.io/).  
+Shi-Lin Liu, [Hao-Xiang Guo](https://haoxiangguo.cn/), [Hao Pan](https://haopan.github.io/), [Pengshuai Wang](https://wang-ps.github.io/), [Xin Tong](http://www.xtong.info/), [Yang Liu](https://xueyuhanlang.github.io/).  
 
 <div style="text-align: center">
 <img src="media/teaser.png" width="1280"/>
@@ -116,11 +116,9 @@ python mls_marching_cubes.py --i examples/d0fa70e45dee680fa45b742ddc5add59.ply.x
 ```
 
 #### Training
-Our code supports single and multiple gpu training. For details, please refer to the config json file.
-Note that we have collected sdf samples from 64×64×64
+Our code supports single and multiple gpu training. For details, please refer to the config json file.  
 ```
 python DeepMLS_Generation.py examples/Config_g2_bs32_1p_d6.json
 ```
-
 #### Evaluation
 For evaluation of results, [ConvONet](https://github.com/autonomousvision/convolutional_occupancy_networks) has provided a great script. Please refer to [here](https://github.com/autonomousvision/convolutional_occupancy_networks#evaluation).
