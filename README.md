@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the paper:
 
-**Deep Implicit Moving Least-Squares Functions for 3D Reconstruction**  
+**[Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/abs/2103.12266)**  
 Shi-Lin Liu, [Hao-Xiang Guo](https://haoxiangguo.cn/), [Hao Pan](https://haopan.github.io/), [Pengshuai Wang](https://wang-ps.github.io/), [Xin Tong](http://www.xtong.info/), [Yang Liu](https://xueyuhanlang.github.io/).  
 
 <div style="text-align: center">
