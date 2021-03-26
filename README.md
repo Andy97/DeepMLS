@@ -83,7 +83,14 @@ cd PyMCubes && python setup.py install
 ## Datasets
 
 ### Preprocessed ShapeNet Dataset
-We have provided the processed tfrecords file. This can be used directly. (coming soon.)
+We have provided the processed tfrecords file. This can be used directly.  
+
+Our training data is **available** now! (total 130G+)  
+Please download all zip files for extraction.  
+[ShapeNet_points_all_train.zip.001](https://drive.google.com/file/d/1tP2y_lx8QIbxP9emRejpwQSkZ1x-MW5S/view?usp=sharing)  
+[ShapeNet_points_all_train.zip.002](https://drive.google.com/file/d/1NrgLarnDAgvZ0aipKGYXmgQHFK887-XM/view?usp=sharing)  
+[ShapeNet_points_all_train.zip.003](https://drive.google.com/file/d/1D49XjrkoH7ftuWKdXAKef1kRGRNxsU3I/view?usp=sharing)  
+After extraction, please modify the "train_data" field in experiment config json file with this tfrecords name.
 
 ### Build the Dataset
 If you want to build the dataset from your own data, please follow:  
