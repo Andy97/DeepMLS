@@ -16,6 +16,7 @@ If you find our code or paper useful, please consider citing
 @inproceedings{Liu2021MLS,
  author =  {Shi-Lin Liu, Hao-Xiang Guo, Hao Pan, Pengshuai Wang, Xin Tong, Yang Liu},
  title = {Deep Implicit Moving Least-Squares Functions for 3D Reconstruction},
+ booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition},
  year = {2021}}
  ```
 
