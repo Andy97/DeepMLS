@@ -14,6 +14,6 @@ This input is declared [here](https://github.com/Andy97/DeepMLS/blob/master/scri
 #### **2.Sampled points file**: sampled 100k points with normal from input #1
 This input is the groundtruth points sampled from surface, we will draw 3k points from these points plus gaussian noise as network input.
 
-Please also note that since these points is sampled from input #1, all points should also be bounded by bounding box [-0.95, 0.95]^3.
+Please also note that since these points are sampled from input #1, all these points should also be bounded by bounding box [-0.95, 0.95]^3.
 
 This input is declared [here](https://github.com/Andy97/DeepMLS/blob/master/scripts/generate_tf_records.py#L42).
