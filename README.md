@@ -103,7 +103,7 @@ To acquire a watertight mesh, we first preprocess each mesh follow the [preproce
 From step 1, we have already gotten the watertight version of each model. Then, we utilize [OpenVDB](https://www.openvdb.org/) library to get the sdf values and gradients for training.   
 For details, please refer to [here](vdb_tsdf).
 
-#### Update (2021-09-30): The script for generating training tfrecords is released, for details please see the [ReadMe.md](https://github.com/Andy97/DeepMLS/tree/master/scripts). 
+#### Update (2021-09-30): The script for generating training tfrecords is released, for details please refer to [Readme.md](https://github.com/Andy97/DeepMLS/tree/master/scripts). 
 
 ## Usage
 
