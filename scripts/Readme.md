@@ -1,6 +1,8 @@
 # Script for tfrecords generation
 
-Before using this script, please first compile [main.cpp](https://github.com/Andy97/DeepMLS/tree/master/vdb_tsdf) and get a executable file named "vdb_tsdf".
+Before using this script, please first compile [main.cpp](https://github.com/Andy97/DeepMLS/tree/master/vdb_tsdf) and get an executable file named "vdb_tsdf".
+
+The executable will be used to generate groudtruth sdf values and gradients as supervision for training, which will be used in script. ([here](https://github.com/Andy97/DeepMLS/blob/master/scripts/generate_tf_records.py#L79))
 
 For each Shapenet model, there will be **2 input files** to this script:
 
