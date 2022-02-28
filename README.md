@@ -93,6 +93,13 @@ Please download all zip files for extraction.
 [ShapeNet_points_all_train.zip.003](https://drive.google.com/file/d/1D49XjrkoH7ftuWKdXAKef1kRGRNxsU3I/view?usp=sharing)  
 After extraction, please modify the "train_data" field in experiment config json file with this tfrecords name.
 
+#### Update(20220228)
+Since the training data in google drive is down, we provide download links in baidu netdisk: 
+https://pan.baidu.com/s/1V70-VphJcN1fZaBdYNUN0g
+
+Please feel free to email freelin AT mail.ustc.edu.cn for access code.
+
+
 ### Build the Dataset
 If you want to build the dataset from your own data, please follow:  
 
